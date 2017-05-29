@@ -39,6 +39,9 @@ class Statistics:
     def nginx_error(self):
         pass
 
+    def code(self):
+	pass
+
     #正序显示方法
     def sort(self,log_dict):
         sort_log = sorted(log_dict.items(),key = lambda d:d[1]['number'],reverse=True)  #根据字典中的number的值进行排序
